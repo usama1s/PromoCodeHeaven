@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> -->
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+
+<body class="w-1600">
+  <nav class="navbar navbar-expand-lg navbar-light  w-1600">
+    <div class="container w-1170">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item  ">
+            <a class="nav-link" href="store.html">stores</a>
+          </li>
+          <li class="nav-item  ">
+            <a class="nav-link" href="category.html">categories</a>
+          </li>
+
+          <li class="nav-item  ">
+            <a class="nav-link" href="share-promo-code-1.html">share codes</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">exclusive</a>
+          </li>
+
+          <li class="nav-item nav-items-right nav-login-btn">
+            <div class="nav-f-border"></div>
+            <a class="nav-link" href="#">Log In</a>
+          </li>
+
+          <li class="nav-item nav-items-right nav-signup-btn">
+            <div class="nav-s-border"></div>
+            <a class="nav-link" href="registration.html">Sign Up For Free</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+
+  </nav>
+  <section class="top-search-bar-sec w-1600">
+    <div class="top-search-bar-div w-1170">
+      <form class="" action="index.html" method="post">
+        <div class="">
+          <input id="search-c" type="text" name="" value="" placeholder="Top Searches: Joe's New Balance, Sur La Table, Dell">
+          <label for="search-c"><i class="fa fa-search" aria-hidden="true"></i></label>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="home-banner-sec w-1600 top-banner-background pb-20">
+    <div class="home-banner-div w-1170">
+      <div class="row">
+        <div class="col left-side">
+          <div class="offer-text">
+            <h1>we offer</h1>
+          </div>
+          <div class="pc-text">
+            <h2>PromoCodes, Coupons and DiscountsPromoCodes,Coupons and Discounts</h2>
+          </div>
+        </div>
+        <div class="col right-side">
+          <div class="sponsors-p sponsor-black">
+            <div class="imgg">
+              <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="text1">
+              <h1>We offer PromoCodes, <br> Coupons and <br> Discounts</h1>
+            </div>
+          </div>
+          <div class="sponsors-p sponsor-orange">
+            <div class="imgg">
+              <img src="images/logo-budget.png" alt="logo">
+            </div>
+            <div class="text1">
+              <h2>Upto <br> 25% Off</h2>
+              <p> Budget Rent A Car In Store Coupon </p>
+            </div>
+          </div>
+          <div class="sponsors-p sponsor-orange">
+            <div class="imgg">
+              <img src="images/logo-bonobos.png" alt="logo">
+            </div>
+            <div class="text1">
+              <h2>25% Off <br> summer chinos</h2>
+              <p> Bonobos Code </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="banner-overlay" src="images/banner-overlay.png" alt="overlay">
+      <img class="banner-overlay2" src="images/banner-overlay.png" alt="overlay">
+    </div>
+
+  </section>
+
+
+
+  <section class="top-offers-sec w-1600">
+    <div class="top-offers-div w-1170 w-1170-p pb-40">
+      <div class="top-offers-title pb-30">
+        <div class="row">
+          <div class="col title-side">
+            <h1>top offers</h1>
+          </div>
+          <div class="col text-side">
+            <form class="" action="index.html" method="post">
+              <div class="row">
+                <div class="col sort-side">
+                  <h2>Sort by Cagtegory</h2>
+                </div>
+                <div class="col dropdown-side">
+                  <select class="" name="">
+                    <option value="">Apparel 1</option>
+                    <option value="">Apparel 2</option>
+                    <option value="">Apparel 3</option>
+                  </select>
+                </div>
+                <div class="col btn-side">
+                  <button class="" type="button" name="button"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                  <button class="active" type="button" name="button"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="offers-single-item">
+        <div class="row">
+          <div class="col img-side">
+            <div class="imgg black-imgg">
+              <img src="images/coupons-ftd.png" alt="FTD">
+            </div>
+            <h2> Promo Code: <span>FTD</span> </h2>
+          </div>
+          <div class="col info-side">
+            <a href="#">
+              <h3>20% Off All Flowers and gifts</h3>
+            </a>
+          </div>
+          <div class="col btn-side">
+            <button type="button" name="button">Get coupon</button>
+            <p>Expires On: <span> 1/29/2017</span></p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-6 author-side">
+            <h4>101 Used | <span> Submitted By:<a href="#"> John Smith </a></span> on 29/05/2020</h4>
+          </div>
+          <div class="col-md-6 social-side">
+            <a href="#">
+              <p><i class="fa fa-commenting" aria-hidden="true"></i> Comment</p>
+            </a>
+            <a href="#">
+              <p><i class="fa fa-share-alt" aria-hidden="true"></i> Share</p>
+            </a>
+            <a href="#">
+              <p><i class="fa fa-star" aria-hidden="true"></i> Save</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="offers-single-item">
+        <div class="row">
+          <div class="col img-side">
+            <div class="imgg">
+              <img src="images/coupons-eyebuy.png" alt="EYEBUY">
+            </div>
+            <h2> Printable Coupon: <span>eyebuy direct</span> </h2>
+          </div>
+          <div class="col info-side">
+            <a href="#">
+              <h3>Extra 15% Off Any Order</h3>
+            </a>
+            <p>Take 15% off your order. Save big on men's and women's eyeglasses and sunglasses.</p>
+          </div>
+          <div class="col btn-side">
+            <button type="button" name="button">Get coupon</button>
+            <p>Expires On: <span> 1/29/2017</span></p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-6 author-side">
+            <h4>101 Used | <span> Submitted By:<a href="#"> John Smith </a></span> on 29/05/2020</h4>
+          </div>
+          <div class="col-md-6 social-side">
+            <a href="#">
+              <p><i class="fa fa-commenting" aria-hidden="true"></i> Comment</p>
+            </a>
+            <a href="#">
+              <p><i class="fa fa-share-alt" aria-hidden="true"></i> Share</p>
+            </a>
+            <a href="#">
+              <p><i class="fa fa-star" aria-hidden="true"></i> Save</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="adslot_main">
+        <div class="adslot_1">
+          <h1>Google Responsive ad</h1>
+        </div>
+      </div>
+
+      <div class="offers-single-item">
+        <div class="row">
+          <div class="col img-side">
+            <div class="imgg">
+              <img src="images/coupons-pacsun.png" alt="EYEBUY">
+            </div>
+            <h2> Promo Code: <span>NEW2020</span> </h2>
+          </div>
+          <div class="col info-side">
+            <a href="#">
+              <h3>20% Off Sitewide</h3>
+            </a>
+            <p>Never miss another deal. Get the top deals from 100s of retailers, including PacSun, in the Best of PromoCodeHeaven emails.</p>
+          </div>
+          <div class="col btn-side">
+            <button type="button" name="button">Get coupon</button>
+            <p>Expires On: <span> 1/29/2017</span></p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-6 author-side">
+            <h4>101 Used | <span> Submitted By:<a href="#"> John Smith </a></span> on 29/05/2020</h4>
+          </div>
+          <div class="col-md-6 social-side">
+            <a href="#">
+              <p><i class="fa fa-commenting" aria-hidden="true"></i> Comment</p>
+            </a>
+            <a href="#">
+              <p><i class="fa fa-share-alt" aria-hidden="true"></i> Share</p>
+            </a>
+            <a href="#">
+              <p><i class="fa fa-star" aria-hidden="true"></i> Save</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="offers-single-item">
+        <div class="row">
+          <div class="col img-side">
+            <div class="imgg">
+              <img src="images/coupons-nike.png" alt="NIKE">
+            </div>
+            <h2> Online Sale: <span>nike</span> </h2>
+          </div>
+          <div class="col info-side">
+            <a href="#">
+              <h3>10% off your orders for Military + Free shipping</h3>
+            </a>
+            <p> <span> Tip:</span> No code needed!</p>
+          </div>
+          <div class="col btn-side">
+            <button type="button" name="button">Get coupon</button>
+            <p>Expires On: <span> 1/29/2017</span></p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-6 author-side">
+            <h4>101 Used | <span> Submitted By:<a href="#"> John Smith </a></span> on 29/05/2020</h4>
+          </div>
+          <div class="col-md-6 social-side">
+            <a href="#">
+              <p><i class="fa fa-commenting" aria-hidden="true"></i> Comment</p>
+            </a>
+            <a href="#">
+              <p><i class="fa fa-share-alt" aria-hidden="true"></i> Share</p>
+            </a>
+            <a href="#">
+              <p><i class="fa fa-star" aria-hidden="true"></i> Save</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="offers-single-item">
+        <div class="row">
+          <div class="col img-side">
+            <div class="imgg">
+              <img src="images/coupons-qull.png" alt="QULL">
+            </div>
+            <h2> Promo Code: <span>SU6DLR36</span> </h2>
+          </div>
+          <div class="col info-side">
+            <a href="#">
+              <h3>$20 Off When You Spend $100 on Select Office Supplies</h3>
+            </a>
+            <p>Never miss another deal. Get the top deals from 100s of retailers, including Quill, in the Best of PromoCodeHeaven emails.</p>
+          </div>
+          <div class="col btn-side">
+            <button type="button" name="button">Get coupon</button>
+            <p>Expires On: <span> 1/29/2017</span></p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-6 author-side">
+            <h4>101 Used | <span> Submitted By:<a href="#"> John Smith </a></span> on 29/05/2020</h4>
+          </div>
+          <div class="col-md-6 social-side">
+            <a href="#">
+              <p><i class="fa fa-commenting" aria-hidden="true"></i> Comment</p>
+            </a>
+            <a href="#">
+              <p><i class="fa fa-share-alt" aria-hidden="true"></i> Share</p>
+            </a>
+            <a href="#">
+              <p><i class="fa fa-star" aria-hidden="true"></i> Save</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="featured-stories-sec w-1600">
+    <div class="featured-stories-div w-1170 w-1170-p pt-50 pb-50">
+      <h1 class="">Featured Stores</h1>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-boston.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-monster.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-3balls.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-dockers.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-sleepys.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-angies.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-travelocity.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-teavana.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-levis.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-fsa.png" alt="featured companies logo">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-boston.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-monster.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-3balls.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-dockers.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-sleepys.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-angies.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-travelocity.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-teavana.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-levis.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-fsa.png" alt="featured companies logo">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-boston.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-monster.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-3balls.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-dockers.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-sleepys.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-angies.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-travelocity.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-teavana.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-levis.png" alt="featured companies logo">
+              </div>
+            </div>
+            <div class="imgg1">
+              <div class="imgg">
+                <img src="images/featured-fsa.png" alt="featured companies logo">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-btns carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <div class="button">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          </div>
+        </a>
+        <a class="carousel-btns carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <div class="button">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="get-app-sec w-1600">
+    <div class="get-app-div w-1170 w-1170-p pb-50 pt-80">
+      <div class="get-app-main">
+        <div class="row">
+          <div class="col text-side pt-50 pb-50">
+            <div class="main-text-side">
+              <h1>get the app</h1>
+              <div class="imgg">
+                <img src="images/store-apple.png" alt="Apple Store">
+                <img src="images/store-google.png" alt="Google Store">
+              </div>
+
+              <h2>Or, enter your phone number to text yourself the app</h2>
+              <form class="" action="index.html" method="post">
+                <input type="text" name="" value="">
+                <button type="button" name="button">send</button>
+              </form>
+              <h3>By clicking "Send", you authorize us to send you an automated
+                text with a link to download the PromoCodeHeaven app.
+                Receipt of text is not a condition of purchase.
+                <a href="#">Full SMS notice</a></h3>
+            </div>
+
+          </div>
+          <div class="col img-side">
+            <div class="imgg">
+              <img src="images/get-the-app.png" alt="get the app">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-top-sec w-1600">
+    <div class="footer-top-div w-1170 w-1170-p">
+      <h1>Join more than a thousand merchants who have found new customers and brand awareness. <p> Work with us and <span> grow your business</span>.</p>
+      </h1>
+    </div>
+  </section>
+
+  <footer class="footer-sec w-1600">
+    <div class="footer-div w-1170 w-1170-p pt-50 pb-40">
+      <h1><span> promo Codes by Category</span></h1>
+      <ul class="footer-top-ul">
+        <div class="row">
+          <div class="col-6 col-lg-3">
+            <a href="#">
+              <li>Apparel</li>
+            </a>
+            <a href="#">
+              <li>Automotive</li>
+            </a>
+            <a href="#">
+              <li>Babies and Kids</li>
+            </a>
+            <a href="#">
+              <li>Beauty and Cosmetics</li>
+            </a>
+            <a href="#">
+              <li>Books</li>
+            </a>
+            <a href="#">
+              <li>Camera and Photo</li>
+            </a>
+            <a href="#">
+              <li>Computer Software</li>
+            </a>
+            <a href="#">
+              <li>Computers-Accessories</li>
+            </a>
+            <a href="#">
+              <li>Contacts and Glasses</li>
+            </a>
+            <a href="#">
+              <li>Crafts</li>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a href="#">
+              <li>Electronics</li>
+            </a>
+            <a href="#">
+              <li>Entertainment</li>
+            </a>
+            <a href="#">
+              <li>Event Tickets</li>
+            </a>
+            <a href="#">
+              <li>Financial</li>
+            </a>
+            <a href="#">
+              <li>Food and Cooking</li>
+            </a>
+            <a href="#">
+              <li>Gifts</li>
+            </a>
+            <a href="#">
+              <li>Health</li>
+            </a>
+            <a href="#">
+              <li>Hobbies & Collectibles</li>
+            </a>
+            <a href="#">
+              <li>Holiday</li>
+            </a>
+            <a href="#">
+              <li>House and Home</li>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a href="#">
+              <li>Jewelry</li>
+            </a>
+            <a href="#">
+              <li>Local</li>
+            </a>
+            <a href="#">
+              <li>Local Babies and Kids</li>
+            </a>
+            <a href="#">
+              <li>Office Supplies</li>
+            </a>
+            <a href="#">
+              <li>Outdoors</li>
+            </a>
+            <a href="#">
+              <li>Party Supplies</li>
+            </a>
+            <a href="#">
+              <li>Computer Software</li>
+            </a>
+            <a href="#">
+              <li>Pets</li>
+            </a>
+            <a href="#">
+              <li>Phones and Wireless</li>
+            </a>
+            <a href="#">
+              <li>School Supplies</li>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a href="#">
+              <li>Shoes</li>
+            </a>
+            <a href="#">
+              <li>Sports</li>
+            </a>
+            <a href="#">
+              <li>Tools and Hardware</li>
+            </a>
+            <a href="#">
+              <li>Office Supplies</li>
+            </a>
+            <a href="#">
+              <li>Toys and Games</li>
+            </a>
+            <a href="#">
+              <li>Travel</li>
+            </a>
+            <a href="#">
+              <li>Uncategorized</li>
+            </a>
+            <a href="#">
+              <li>Weddings</li>
+            </a>
+            <a href="#">
+              <li>Womens Apparel</li>
+            </a>
+          </div>
+        </div>
+      </ul>
+      <div class="footer-overlay">
+        <div class="imgg">
+          <img src="images/footer-overlay.png" alt="Overlay">
+          <img src="images/footer-overlay-1.png" alt="Overlay">
+        </div>
+
+      </div>
+      <div class="footer-bottom-part">
+        <div class="row">
+          <div class="col sc-col">
+            <h2>general</h2>
+            <hr>
+            <ul>
+              <a href="about-us.html">
+                <li>About Us</li>
+              </a>
+              <a href="blog.html">
+                <li>Blog Post</li>
+              </a>
+              <a href="careers.html">
+                <li>Careers</li>
+              </a>
+              <a href="contact-us.html">
+                <li>Contact Us</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col sc-col">
+            <h2>account</h2>
+            <hr>
+            <ul>
+              <a href="#">
+                <li>My Account</li>
+              </a>
+              <a href="#">
+                <li>Community</li>
+              </a>
+              <a href="#">
+                <li>Submit a Coupon</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col sc-col">
+            <h2>more</h2>
+            <hr>
+            <ul>
+              <a href="customer-support.html">
+                <li>Customer Support</li>
+              </a>
+              <a href="#">
+                <li>Refund Policies</li>
+              </a>
+              <a href="faqs.html">
+                <li>FAQ</li>
+              </a>
+              <a href="#">
+                <li>Coupons</li>
+              </a>
+              <a href="#">
+                <li>Students</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col sf-col">
+            <h2>Sign up for out newsletter</h2>
+            <hr>
+            <ul>
+              <li>Get the top offers from 100s of retailers in the Best of
+                <span> PromoCodeHeaven </span> emails.</li>
+            </ul>
+            <form class="" action="index.html" method="post">
+              <input type="email" name="" value="" placeholder="Email Address">
+              <button type="button" name="button">Sign up now!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright pt-30">
+        <div class="imgg">
+          <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="">
+          <h3> © 2017 <span> <a href="#">PromoCodeHeaven</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a></span></h3>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
